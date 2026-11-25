@@ -1,4 +1,4 @@
-# agent-toolkit의 모든 스킬을 Codex·Gemini CLI 공용 스킬 폴더로 복사한다.
+﻿# agent-toolkit의 모든 스킬을 Codex·Gemini CLI 공용 스킬 폴더로 복사한다.
 # 사용: 저장소 폴더에서  powershell -ExecutionPolicy Bypass -File scripts\sync-skills.ps1 [-Target <경로>] [-Force] [-Only 이름1,이름2]
 # 기본 대상: $env:USERPROFILE\.agents\skills  (Codex는 이 폴더를, Gemini CLI는 ~/.gemini/skills와 함께 이 폴더도 읽는다)
 # 같은 이름 폴더가 이미 있으면 건너뛴다. 덮어쓰려면 -Force (기존 폴더는 .backup-<시각>으로 옮겨 둔다).
