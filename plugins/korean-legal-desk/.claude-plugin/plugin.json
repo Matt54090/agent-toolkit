@@ -1,0 +1,8 @@
+{
+  "name": "korean-legal-desk",
+  "version": "0.2.0",
+  "description": "한국법 기준 계약서 검토·레드라인, 법률문서 작성, 법령·판례 확인 스킬 + 프롬프트 민감번호 차단 훅",
+  "author": { "name": "Matt" },
+  "license": "MIT",
+  "keywords": ["legal", "korean-law", "contract-review", "redline", "계약서", "법률문서"]
+}

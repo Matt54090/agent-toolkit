@@ -1,0 +1,9 @@
+{
+  "name": "design-md",
+  "version": "1.0.0",
+  "description": "실제 웹사이트 디자인 시스템 DESIGN.md 74종 중 골라 UI를 그 스타일로 만드는 스킬",
+  "author": {
+    "name": "Matt"
+  },
+  "license": "MIT"
+}

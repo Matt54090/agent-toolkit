@@ -1,0 +1,11 @@
+{
+  "name": "agent-toolkit",
+  "owner": { "name": "Matt" },
+  "description": "Matt의 AI 에이전트 스킬·훅·MCP 설정 모음. Claude Code 마켓플레이스이면서 Codex·Gemini CLI에서도 같은 스킬 폴더를 쓴다.",
+  "plugins": [
+    { "name": "korean-legal-desk", "source": "./plugins/korean-legal-desk", "description": "한국법 기준 계약서 검토·레드라인, 법률문서 작성, 법령·판례 확인 + 민감번호 차단 훅", "version": "0.2.0", "license": "MIT" },
+    { "name": "session-handoff", "source": "./plugins/session-handoff", "description": "새 세션 인수인계 파일 생성·자동 전달 (Claude Code·Codex)", "version": "1.0.0", "license": "MIT" },
+    { "name": "model-switch-prep", "source": "./plugins/model-switch-prep", "description": "새 모델 전환 전 컨텍스트 확인 → 압축 → 모델 변경 절차", "version": "1.0.0", "license": "MIT" },
+    { "name": "design-md", "source": "./plugins/design-md", "description": "DESIGN.md 디자인 시스템 74종으로 UI 만들기", "version": "1.0.0", "license": "MIT" }
+  ]
+}

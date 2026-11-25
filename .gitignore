@@ -1,0 +1,8 @@
+*.pii-map.json
+*.masked.txt
+*.restored.*
+.legal/redlines/
+__pycache__/
+*.zip
+.env
+.env.*

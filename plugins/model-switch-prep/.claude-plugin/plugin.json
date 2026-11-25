@@ -1,0 +1,9 @@
+{
+  "name": "model-switch-prep",
+  "version": "1.0.0",
+  "description": "새 AI 모델로 바꾸기 전 컨텍스트 확인 → 압축 → 모델 변경 → 검증 절차 스킬. Claude Code·Codex 공용",
+  "author": {
+    "name": "Matt"
+  },
+  "license": "MIT"
+}

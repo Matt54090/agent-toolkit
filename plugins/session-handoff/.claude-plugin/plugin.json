@@ -1,0 +1,9 @@
+{
+  "name": "session-handoff",
+  "version": "1.0.0",
+  "description": "세션을 압축하지 않고 새 세션으로 넘기는 인수인계 파일(.handoff/HANDOFF.md) 생성·자동 전달 스킬. Claude Code·Codex 공용",
+  "author": {
+    "name": "Matt"
+  },
+  "license": "MIT"
+}
