@@ -21,7 +21,7 @@
 /plugin marketplace add chrisryugj/korean-law-mcp
 /plugin install korean-law@korean-law-marketplace
 ```
-플러그인은 `LAW_OC` 환경변수를 `apikey` 헤더로 보낸다(원본 README 기준).
+플러그인은 `LAW_OC` 환경변수를 읽지 않는다. 설치할 때 묻는 `api_key`(userConfig, 민감값으로 저장)를 `apikey` 헤더로 보내고, 비워 두면 공용 한도로 동작한다(원본 `plugin.json` v4.15.25 기준).
 
 ## Codex CLI / ChatGPT 데스크톱 — `~/.codex/config.toml`
 ```toml
